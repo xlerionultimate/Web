@@ -312,8 +312,12 @@
     font-weight: 500;
     color: #ffffff;
     cursor: pointer;
-    transition: .5s;
+    transition: .15s;
     border-bottom: 2px solid transparent;
+    -webkit-transition: .15s;
+    -moz-transition: .15s;
+    -ms-transition: .15s;
+    -o-transition: .15s;
 }
 
 #portfolio-flters li:hover,
@@ -353,7 +357,7 @@
 .portfolio-item:hover .portfolio-img::after {
     width: 51%;
     right: 0;
-    background-color: #00313d;
+    background-color: #0f0f0f;
 }
 
 .portfolio-btn {
@@ -367,12 +371,17 @@
     justify-content: center;
     opacity: 0;
     z-index: 1;
-    transition: .5s;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -ms-transition: .1s;
+    -o-transition: .1s;
 }
 
 .portfolio-item:hover .portfolio-btn {
     opacity: 50;
     transition-delay: .5s;
+    
 }
 
 
