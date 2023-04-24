@@ -160,7 +160,7 @@
     left: 0;
     display: flex;
     align-items: center;
-    background: rgba(0, 0, 0, 0.678);
+    background: rgba(0, 0, 0, 0);
 }
 
 @media (max-width: 768px) {
@@ -599,3 +599,4 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
